@@ -1,0 +1,2 @@
+# Breast-Cancer-Prediction-with-XGBoost-LightGBM-A-Machine-Learning-Case-Study
+A machine learning project that leverages powerful ensemble methods—XGBoost and LightGBM—to predict breast cancer diagnosis based on clinical diagnostic features. This end-to-end pipeline covers data cleaning, EDA, model training, evaluation, and comparison, showcasing how boosting algorithms can drive high-accuracy predictions in healthcare.
