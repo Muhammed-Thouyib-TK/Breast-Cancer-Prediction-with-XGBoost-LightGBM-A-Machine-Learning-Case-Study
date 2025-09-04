@@ -41,7 +41,7 @@ def main():
     # Collect user input
     user_input = []
     for feature in feature_names:
-        value = st.number_input(f"{feature}: ", value=0.0,format="%.5f")
+        value = st.number_input(f"{feature}: ", value=0.0,format="%.5f",step=0.00001)
         user_input.append(value)
 
     # Predict button
@@ -52,3 +52,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
