@@ -87,15 +87,8 @@ Using the **Breast Cancer Wisconsin Diagnostic Dataset**, the goal is to classif
 
 ---
 
-## 🔍 Conclusion
+## 🌐 Deployment
 
-This project proves how advanced ensemble models like XGBoost and LightGBM can be leveraged to support early detection in medical diagnostics. With clean preprocessing, meaningful feature analysis, and proper evaluation, boosting models offer **high accuracy, interpretability**, and **real-world potential** in healthcare applications.
+The project has been deployed as an **interactive Streamlit web application** for real-time breast cancer prediction. Users can input diagnostic feature values and instantly receive predictions from both **XGBoost** and **LightGBM** models.
 
----
-
-## 🚀 Future Improvements
-
-- Add SHAP or feature importance visualizations  
-- Cross-validation for more reliable metrics  
-- Integrate with Streamlit for interactive prediction  
-- Apply to multi-class or multi-label medical datasets
+Live Demo : https://breast-cancer-web-application.streamlit.app/
